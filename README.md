@@ -2,7 +2,6 @@
 MATLAB script that finds physical characteristics (e.g. oscillation frequency, size) of solar spicules. It can also work for spicule-like structures such as tall grass when fine-tuned. 
 
 
-
 ## Using the spicule detection and analysis Matlab script
 
   
@@ -12,7 +11,11 @@ Note: This script was written in Matlab 2019b. It may not function properly when
 
     1.  This script requires the Matlab Image Processing Toolbox which could be downloaded from “Apps" \> “Get more apps" \> search for “Image Processing Toolbox" \> add it to Matlab.
 
-    2.  Download the folder containing the main Matlab script and other functions necessary for it to function.
+    2.  Download the needed functions to the same directory as the main script:
+
+        1.  <span style="color: blue">[Filters for Curvilinear Enhancement](https://www.mathworks.com/matlabcentral/fileexchange/46541-filters-for-curvilinear-enhancement)</span>
+
+        2.  <span style="color: blue">[fitmethis](https://www.mathworks.com/matlabcentral/fileexchange/40167-fitmethis)</span>
 
     3.  Obtain a video of spicules or spicule-like structures to be detected and analysed, then copy it to the extracted folder.
 
